@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Threading;
-using Oracle.DataAccess.Client;
+
 
 namespace AspNet.Identity.Oracle
 {
-     /// <summary>
+  using global::Oracle.ManagedDataAccess.Client;
+
+  /// <summary>
      /// Class that encapsulates a Oracle Database connections 
      /// and CRUD operations
      /// </summary>

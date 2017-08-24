@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using Oracle.DataAccess.Client;
+
 
 namespace AspNet.Identity.Oracle
 {
-    /// <summary>
+  using global::Oracle.ManagedDataAccess.Client;
+
+  /// <summary>
     /// Class that represents the UserClaims table in the Oracle Database
     /// </summary>
     public class UserClaimsTable

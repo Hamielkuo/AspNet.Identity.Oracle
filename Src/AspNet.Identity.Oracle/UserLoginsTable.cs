@@ -1,11 +1,13 @@
 ﻿using System.Linq;
 using Microsoft.AspNet.Identity;
 using System.Collections.Generic;
-using Oracle.DataAccess.Client;
+
 
 namespace AspNet.Identity.Oracle
 {
-    /// <summary>
+  using global::Oracle.ManagedDataAccess.Client;
+
+  /// <summary>
     /// Class that represents the UserLogins table in the Oracle Database
     /// </summary>
     public class UserLoginsTable

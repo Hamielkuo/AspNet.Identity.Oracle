@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Oracle.DataAccess.Client;
+
 
 namespace AspNet.Identity.Oracle
 {
-    /// <summary>
+  using global::Oracle.ManagedDataAccess.Client;
+
+  /// <summary>
     /// Class that represents the Role table in the Oracle Database
     /// </summary>
     public class RoleTable 

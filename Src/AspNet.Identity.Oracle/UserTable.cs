@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using Oracle.DataAccess.Client;
+
 
 namespace AspNet.Identity.Oracle
 {
-    /// <summary>
+  using global::Oracle.ManagedDataAccess.Client;
+
+  /// <summary>
     /// Class that represents the Users table in the Oracle Database
     /// </summary>
     public class UserTable<TUser>
